@@ -15,7 +15,7 @@ body {
 
 .banner {
   background-color: #2b3851;
-  height: 185px;
+  height: 240px;
   position: relative;
 }
 
@@ -23,6 +23,7 @@ body {
   width: 320px;
   position: relative;
   margin: 0 auto;
+  padding-top: 55px;
 }
 
 .robot-body {
@@ -33,6 +34,7 @@ body {
   width: 46px;
   position: absolute;
   left: 50%;
+  top: 60px;
   z-index: 2;
   transform: translateX(-50%);
 }
@@ -47,17 +49,27 @@ body {
 .robot-head-right {
   position: absolute;
   width: 125px;
-  right: 10px;
+  right: 36px;
+  top: 20px;
+}
+
+.robot-head-left {
+  position: absolute;
+  width: 125px;
+  left: 36px;
+  top: 20px;
 }
 
 .robot:hover .robot-head-right {
-
+  right: 36px;
+  top: 20px;
 }
 
 .robot:hover .robot-head-left {
-
+  left: 36px;
+  top: 20px;
 }
 
 .robot:hover .robot-brain {
-
+  top: 40px;
 }
