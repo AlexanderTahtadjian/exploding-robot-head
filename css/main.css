@@ -20,6 +20,8 @@ body {
 .robot {
   width: 320px;
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-body {
