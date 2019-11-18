@@ -40,10 +40,10 @@ body {
 .robot-head-left {
   width: 125px;
   position: absolute;
-  z-index: 2;
 }
 
 .robot-head-right {
   position: absolute;
   right: 10px;
+  transform: translateX(-50%);
 }
