@@ -16,6 +16,7 @@ body {
 .banner {
   background-color: #2b3851;
   height: 185px;
+  position: relative;
 }
 
 .robot {
