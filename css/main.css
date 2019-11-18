@@ -39,3 +39,9 @@ body {
 .robot-head-left {
   width: 125px;
 }
+
+.robot-head-right {
+  position: absolute;
+  right: 50%;
+  transform: translateX(-50%);
+}
