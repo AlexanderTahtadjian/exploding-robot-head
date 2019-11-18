@@ -26,6 +26,7 @@ body {
   width: 320px;
   position: absolute;
   left: 50%;
+  z-index: 1;
   transform: translateX(-50%);
 }
 
@@ -33,6 +34,7 @@ body {
   width: 46px;
   position: absolute;
   left: 50%;
+  z-index: 2;
   transform: translateX(-50%);
 }
 
@@ -40,6 +42,7 @@ body {
 .robot-head-left {
   width: 125px;
   position: absolute;
+  z-index: 3;
 }
 
 .robot-head-right {
